@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        div>article>p {
+            color: aqua;
+            background-color: black;
+        }
+
+        p:first-child {
+            color: rgb(66, 97, 16);
+        }
+
+        a:hover {
+            color: darkgreen;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        #red {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    1. child selector--
+             a>b {}
+
+    2. descendent selector--
+             a b{} 
+            -->
+    <div class="red">
+        <article>
+            <p>
+                I am inside div
+            </p>
+        </article>
+        I am a div
+    </div>
+    <div id="red">
+        Myself another div
+    </div>
+    <a href="www.google.com">google</a>
+</body>
+
+</html>

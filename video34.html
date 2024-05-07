@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear in CSS</title>
+    <style>
+        img {
+            float: right;
+
+        }
+
+        .cards {
+            border: 2px solid red;
+            display: flow-root;
+        }
+
+        .card {
+            border: 2px solid black;
+        }
+        div:nth-child(3){
+            /* clear: right; */
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="photonew.jpeg" width="233px" alt="nature">
+        <div class="card">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ea ad quia expedita dignissimos eius esse
+                at suscipit ipsum officiis atque et hic mollitia veritatis, odit in doloremque dolor est? Sunt ipsa
+                tempore voluptates.
+            </p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facilis dolores fugit,
+            placeat excepturi molestias labore velit necessitatibus nihil, blanditiis suscipit laborum unde optio ab
+            aperiam aspernatur, nostrum distinctio nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nesciunt, adipisci. Maxime ducimus voluptatibus inventore! Ratione enim, atque excepturi nisi quo quidem
+            omnis tenetur quaerat illo deleniti repellendus natus veniam hic accusamus dolores officia repudiandae eum
+            quae soluta ducimus porro ipsa recusandae veritatis maiores. Consequatur dignissimos vero nihil sed voluptas
+            aspernatur quod inventore eius laborum unde!</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>

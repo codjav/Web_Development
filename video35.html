@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selectors in CSS</title>
+    <style>
+        /* .box:first-child {
+            background-color: red;
+        }
+        .box::first-line{
+            color: yellow;
+        }
+        .boxes *{
+            border: 2px solid black;
+        }
+        [color=primary]{
+            margin-top: 24px;
+        } */
+        input::placeholder{
+            color: blue;
+        }
+        .box::first-letter {
+            font-size: 25px;
+        }
+
+        .box:nth-child(odd) {
+            color: green;
+        }
+
+        .box:nth-last-child(1) {
+            color: aqua;
+        }
+
+        .boxes::before {
+            content: " MD JAVED ALI is a good person";
+
+        }
+
+        ::selection {
+            color: rgb(224, 37, 115);
+        }
+
+        .boxes::after {
+            content: "My self very good  person on this earth I am light hearted";
+        }
+    </style>
+</head>
+
+<body>
+    <div color="primary" class="boxes">
+        <div class="box">
+            <input type="text"placeholder="Enter your name">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias commodi similique, et
+            necessitatibus exercitationem soluta eaque eveniet excepturi ratione minus temporibus reprehenderit magni
+            minima ea ab, at quam, porro dolorum reiciendis harum consequuntur. Facere veritatis laboriosam blanditiis
+            eum rerum ex nulla tempora rem doloribus. Autem, laboriosam itaque aut exercitationem voluptate non eaque
+            minus ut doloremque aliquam totam, dolores labore quo veniam ipsa suscipit natus velit vitae commodi esse
+            numquam provident quod? Necessitatibus quae animi, itaque, ducimus sint delectus eum tempora corporis quo
+            aliquam a recusandae quos! Dolore eius, exercitationem amet quae voluptates numquam aliquid tempora et odio
+            soluta delectus perspiciatis impedit corporis repellendus porro autem cum, harum ipsam nisi. Necessitatibus
+            magnam aspernatur hic adipisci ab iure vitae voluptas, itaque praesentium, obcaecati expedita debitis
+            veritatis porro.</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+    </div>
+</body>
+
+</html>

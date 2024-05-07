@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 8</title>
+    <style>
+        .container{
+            background-color: rgb(22, 22, 122);
+            width: 90vw;
+            height: 80vh;
+            position: fixed;
+        }
+        .ball{
+            background-color: red;
+            width: 8vw;
+            height: 8vw;
+            border-radius: 100px;
+            position: absolute;
+            bottom: 0px;
+            animation: javedY 2s ease-out alternate infinite  forwards,
+            javedX 10s linear infinite forwards;
+       }
+        @keyframes javedX{
+           from{
+            left: 0;
+           }
+           to{
+            left: 100%;
+           }
+        }
+        @keyframes javedY {
+           from{
+            bottom: 0;
+           }
+           to{
+            bottom: 60%;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

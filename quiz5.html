@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 5</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .nav {
+            display: flexbox;
+            border: 0.1px solid black;
+            width: 100vw;
+            height: 52px;
+            background-color: rgb(196, 20, 88);
+            position: sticky;
+        }
+
+        .content {
+            margin: 2.5vw;
+            background-color: green;
+            width: 95vw;
+            height: 410px;
+            display: flex;
+        }
+
+        .left {
+            background-color: rgb(240, 132, 31);
+            width: 40vw;
+            height: 340px;
+            margin-left: 7vw;
+            margin-right: 7vw;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+
+        .right {
+            background-color: blue;
+            width: 40vw;
+            height: 340px;
+            margin-left: 7vw;
+            margin-top: 35px;
+            margin-bottom: 35px;
+            margin-right: 7vw;
+        }
+
+        .title {
+            border: 2px solid white;
+            color: white;
+            font-size: 35px;
+            text-align: center;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            margin-bottom: 60px;
+            padding: 25px;
+            border-radius: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .svg {
+            position: fixed;
+            right: 0px;
+            bottom: 125px;
+
+        }
+
+        .bottom {
+            background-color: white;
+            width: 100vw;
+            height: 30px;
+            position: static;
+            bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav"></div>
+    <div class="content">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="svg">
+        <svg height="100px" width="100px">
+            <circle cx="25px" cy="25px" r="25px" stroke-width="1px" fill="orange" stroke-color="black"> </circle>
+        </svg>
+    </div>
+    <div class="title">Welcome to this Sigma Web Development Express</div>
+    <div class="bottom"></div>
+</body>
+
+</html>

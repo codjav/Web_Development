@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="post">
+        <div><label for="name">Enter your username:</label>
+            <input type="text" name="Username" placeholder="Enter your name" id="name" autofocus>
+        </div>
+        <div><label for="Gender">Gender:</label>
+            <input type="radio" name="Gender" class="Gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" class="Gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to Mohammad Javed Ali</label>
+        </div>
+        <div>
+            <label for="comment">Comments-</label>
+        </div>
+        <div>
+            <textarea name="comments" placeholder="Enter something" id="comment" cols="20" rows="10"></textarea>
+        </div>
+        <div>
+            <select name="States" id="state">
+                <option value="apple">Apple</option>
+                <option value="apple">Mango</option>
+                <option value="apple">Banana</option>
+                <option value="apple">Cherry</option>
+                <option value="apple">Cucumber</option>
+                <option value="apple">Guava</option>
+            </select>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
