@@ -1,0 +1,20 @@
+.k nav li{border: 2px solid black;
+  width: 80px;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+.k{
+  background: black;
+}
+.k nav {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.red{
+  background: red;
+  color:green;
+}

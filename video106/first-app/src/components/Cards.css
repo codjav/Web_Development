@@ -1,0 +1,16 @@
+.Card{
+    margin: 34px;
+    padding: 34px;
+    height: 10vh;
+    width: 20vw;
+    border: 2px solid green;
+    background-color: black;
+    background-image: url(https://i0.wp.com/plopdo.com/wp-content/uploads/2021/11/feature-pic.jpg?fit=537%2C322&ssl=1) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: end;
+    
+}
+h1, h2{
+    color: rgb(239, 239, 233);
+}
